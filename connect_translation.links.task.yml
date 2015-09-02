@@ -1,0 +1,3 @@
+connect_translation.local_tasks:
+  deriver: 'Drupal\connect_translation\Plugin\Derivative\ContentTranslationLocalTasks'
+  weight: 100

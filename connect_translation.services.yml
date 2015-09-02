@@ -1,0 +1,6 @@
+services:
+  connect_translation.subscriber:
+    class: Drupal\connect_translation\Routing\ConnectTranslationRouteSubscriber
+    arguments: ['@content_translation.manager']
+    tags:
+      - { name: event_subscriber }

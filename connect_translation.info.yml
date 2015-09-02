@@ -1,0 +1,7 @@
+name: 'Connect Translation'
+type: module
+description: 'Allow users to connect existing nodes as translations of a node.'
+dependencies:
+  - content_translation
+package: Multilingual
+core: '8.x'
